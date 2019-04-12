@@ -1,0 +1,1 @@
+# Obtain the information needed to run the chess engine and make appropriate moves

@@ -1,6 +1,9 @@
-import chess
+import Pieces
 
-newChessBoard = chess.Board()
+class Pieces:
+    # define the board
 
-print(newChessBoard)
+    # Add the pieces to the board
+
+
 
