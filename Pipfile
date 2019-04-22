@@ -9,6 +9,7 @@ verify_ssl = true
 chess = "*"
 pychess = "*"
 abc = "*"
+abcplus = "*"
 
 [requires]
 python_version = "3.7"

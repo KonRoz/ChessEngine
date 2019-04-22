@@ -17,10 +17,9 @@ class ChessBoard:
                           ', y coor: ', my, ' )')
                 else:
                     print('NONE', ' at:', '( x coor: ', mx, ', y coor: ', my, ' )')
+    def set_up_board(self):
+        Pieces.Pawn(team=True, )
 
-    def add_pieces(self, *args):
-        for piece in args:
-            self.board[piece.location] = piece
+    def add_pieces(self):
+        pass
 
-    def begin_game(self):
-        print('Welcome to Console Chess')
