@@ -39,8 +39,11 @@ class Pawn(Pieces):
         Pieces.piece_names.append(self.short_name)
         super().__init__(self.short_name, **kwargs)
 
-    def output_moves(self):
-        pass
+    def output_moves(self, boardayout):
+        # pawn can only move forward
+        if boardayout[0]
+        print(self.location[1]+1)
+
 
     def move(self):
         pass
@@ -63,6 +66,7 @@ class Rook(Pieces):
 
     def move(self):
         pass
+
 
 
 class Knight(Pieces):
